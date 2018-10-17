@@ -2,8 +2,7 @@ particlesJS.load('particle-js', 'js/particles.json');
 
 
 // Set the date we're counting down to
-//var countDownDate = new Date("Oct 19, 2018 19:00:00").getTime();
-var countDownDate = new Date("Oct 17, 2018 3:02:00").getTime();
+var countDownDate = new Date("Oct 19, 2018 19:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -28,6 +27,7 @@ var x = setInterval(function () {
 
     if (distance < 0) {
         clearInterval(x);
+        document.getElementById("logo").style.visibility = 'hidden';
         document.getElementById("countdown").innerHTML = "";
         var myPlayer;
         jQuery(function () {
