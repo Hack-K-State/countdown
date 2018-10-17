@@ -1,0 +1,48 @@
+* {
+    z-index: 2;
+  }
+  
+  html,
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #0e141e;
+    margin: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Hammersmith One', sans-serif !important;
+  }
+
+  .countdown {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    margin-top: 20%;
+    margin-bottom: 1%;
+  }
+
+  .countdown-text {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+  }
+
+  
+  #particle-js canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1 !important;
+  }
+  
