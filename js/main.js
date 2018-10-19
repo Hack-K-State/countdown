@@ -1,7 +1,7 @@
 particlesJS.load('particle-js', 'js/particles.json');
 
 
-var countDownDate = new Date("Oct 19, 2018 19:00:00").getTime();
+var countDownDate = new Date("Oct 19, 2018 19:30:00").getTime();
 var x = setInterval(function () {
 
     var now = new Date().getTime();
@@ -32,5 +32,3 @@ function checkTime(i) {
     if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
     return i;
 }
-
-
